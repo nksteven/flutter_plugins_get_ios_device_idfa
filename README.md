@@ -1,6 +1,6 @@
 # get_ios_device_idfa
 
-A new flutter plugin project.
+Get IOS Device IDFA.
 
 ## Getting Started
 
