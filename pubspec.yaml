@@ -2,7 +2,7 @@ name: get_ios_device_idfa
 description: A new flutter plugin project.
 version: 0.0.1
 author: radiantwf <radiantwf@gmail.com>
-homepage: https://github.com/radiantwf
+homepage: https://github.com/radiantwf/flutter_plugins_get_ios_device_idfa
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
