@@ -11,8 +11,8 @@ public class SwiftGetIosDeviceIdfaPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     let advertisingIdentifier = ASIdentifierManager.init().advertisingIdentifier
-    if advertisingIdentifier.hashValue != 0 {
-      result(advertisingIdentifier.uuidString)
+    if ASIdentifierManager.shared().isAdvertisingTrackingEnabled {
+      result(ASIdentifierManager.shared().advertisingIdentifier.uuidString)
     } else {
       result(nil)
     }
